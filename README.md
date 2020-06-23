@@ -1,4 +1,3 @@
-# tb-db
 # Useful commands
 ## Build a container image using the Dockerfile
 ```
