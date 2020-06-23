@@ -19,8 +19,6 @@ function exec_file {
 	cat "${filename}" | mysql --verbose --user=root --host="${MYSQL_HOST}" --database="${MYSQL_DATABASE}" --line-numbers --column-names --show-warnings
 }
 
-exec_cmd "SET FOREIGN_KEY_CHECKS=0;"
-
 # Load table schema
 exec_file /tables/user.sql
 exec_file /tables/ci.sql
@@ -81,5 +79,3 @@ exec_file /data/solutionenvironment.sql
 exec_file /data/solutionresource.sql
 exec_file /data/solutionresourcejson.sql
 exec_file /data/teammember.sql
-
-exec_cmd "SET FOREIGN_KEY_CHECKS=1;"
