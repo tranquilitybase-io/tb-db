@@ -1,0 +1,2 @@
+LOCK TABLES `solutionresource` WRITE;
+UNLOCK TABLES;
