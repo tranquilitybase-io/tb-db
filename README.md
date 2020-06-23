@@ -1,4 +1,5 @@
-# tb-db# Useful commnds
+# tb-db
+# Useful commands
 ## Build a container image using the Dockerfile
 ```
 docker build -t gcr.io/tranquility-base-images/tb-houston-service:mysql57 .
