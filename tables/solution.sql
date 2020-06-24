@@ -11,7 +11,7 @@ CREATE TABLE `solution` (
   `lastUpdated` datetime DEFAULT NULL,
   `isFavourite` tinyint(1) NOT NULL DEFAULT '0',
   `name` varchar(30) DEFAULT NULL,
-  `description` TEXT DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
   `costCentre` varchar(255) DEFAULT NULL,
   `ci` varchar(255) DEFAULT NULL,
   `cd` varchar(255) DEFAULT NULL,
