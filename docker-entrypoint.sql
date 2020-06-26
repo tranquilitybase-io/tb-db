@@ -28,6 +28,10 @@ SOURCE /srv/applicationDeployment.sql;
 SOURCE /srv/solutionenvironment.sql;
 SOURCE /srv/solutionresource.sql;
 SOURCE /srv/solution_resource_json.sql;
+SOURCE /srv/notification.sql;
+SOURCE /srv/notificationType.sql;
+SOURCE /srv/notificationActivator.sql;
+
 
 SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
@@ -55,3 +59,4 @@ SOURCE /srv/load_solutionenvironment.sql
 SOURCE /srv/load_solutionresource.sql
 SOURCE /srv/load_solutionresourcejson.sql
 SOURCE /srv/load_teammember.sql
+SOURCE /srv/load_notificationType.sql;
