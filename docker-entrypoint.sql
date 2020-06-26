@@ -28,8 +28,8 @@ SOURCE /srv/applicationDeployment.sql;
 SOURCE /srv/solutionenvironment.sql;
 SOURCE /srv/solutionresource.sql;
 SOURCE /srv/solution_resource_json.sql;
-SOURCE /srv/notification.sql;
 SOURCE /srv/notificationType.sql;
+SOURCE /srv/notification.sql;
 SOURCE /srv/notificationActivator.sql;
 
 
