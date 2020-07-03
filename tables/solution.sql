@@ -13,9 +13,9 @@ CREATE TABLE `solution` (
   `name` varchar(30) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `costCentre` varchar(255) DEFAULT NULL,
-  `ci` int(11) DEFAULT NULL,
-  `cd` int(11) DEFAULT NULL,
-  `sourceControl` int(11) DEFAULT NULL,
+  `ciId` int(11) DEFAULT NULL,
+  `cdId` int(11) DEFAULT NULL,
+  `sourceControlId` int(11) DEFAULT NULL,
   `deployed` tinyint(4) NOT NULL DEFAULT '0',
   `deploymentState` varchar(45) NOT NULL,
   `statusId` int(11) DEFAULT NULL,
@@ -27,6 +27,10 @@ CREATE TABLE `solution` (
   `businessUnitId` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_solution_teamId` (`teamId`),
-  CONSTRAINT `FK_solution_teamId` FOREIGN KEY (`teamId`) REFERENCES `team` (`id`)
+  CONSTRAINT `FK_solution_teamId` FOREIGN KEY (`teamId`) REFERENCES `team` (`id`),
+  CONSTRAINT `FK_solution_ciId` FOREIGN KEY (`ciId`) REFERENCES `ci` (`id`),
+  CONSTRAINT `FK_solution_cdId` FOREIGN KEY (`cdId`) REFERENCES `cd` (`id`),
+  CONSTRAINT `FK_solution_sourceControlId` FOREIGN KEY (`sourceControlId`) REFERENCES `sourcecontrol` (`id`)
+
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
