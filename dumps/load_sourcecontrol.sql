@@ -1,6 +1,6 @@
 LOCK TABLES `sourcecontrol` WRITE;
 INSERT INTO `sourcecontrol` VALUES 
-('BitBucket','BitBucket'),
-('Cloud native','Cloud native'),
-('GitHub','GitHub');
+(1,'BitBucket'),
+(2,'Cloud native'),
+(3,'GitHub');
 UNLOCK TABLES;
