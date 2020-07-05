@@ -11,6 +11,7 @@ CREATE TABLE `user` (
   `firstName` varchar(100) NOT NULL,
   `lastName` varchar(100) NOT NULL,
   `isAdmin` tinyint(1) NOT NULL DEFAULT '0',
+  `lastUpdated` datetime DEFAULT NULL,
   `isActive` tinyint(1) NOT NULL DEFAULT '0',
   `showWelcome` tinyint(1) DEFAULT '1',
   PRIMARY KEY (`id`)
