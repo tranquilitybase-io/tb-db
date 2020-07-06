@@ -1,8 +1,8 @@
 LOCK TABLES `ci` WRITE;
 INSERT INTO `ci` VALUES 
-('Bamboo','Bamboo'),
-('Cloud native','Cloud native'),
-('Jenkins','Jenkins'),
-('Team City','Team City'),
-('Travis','Travis');
+(1,'Bamboo'),
+(2,'Cloud native'),
+(3,'Jenkins'),
+(4,'Team City'),
+(5,'Travis');
 UNLOCK TABLES;

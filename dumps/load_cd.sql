@@ -1,7 +1,7 @@
 LOCK TABLES `cd` WRITE;
 INSERT INTO `cd` VALUES 
-('Central','Central'),
-('Screwdriver','Screwdriver'),
-('Spinnaker','Spinnaker'),
-('Team City','Team City');
+(1,'Central'),
+(2,'Screwdriver'),
+(3,'Spinnaker'),
+(4,'Team City');
 UNLOCK TABLES;
