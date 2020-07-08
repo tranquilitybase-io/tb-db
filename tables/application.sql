@@ -1,3 +1,5 @@
+SET FOREIGN_KEY_CHECKS=0;
+
 DROP TABLE IF EXISTS `application`;
 CREATE TABLE `application` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -17,3 +19,5 @@ CREATE TABLE `application` (
   CONSTRAINT `FK_application_activatorId` FOREIGN KEY (`activatorId`) REFERENCES `activator` (`id`),
   CONSTRAINT `FK_application_solutionId` FOREIGN KEY (`solutionId`) REFERENCES `solution` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
+
+SET FOREIGN_KEY_CHECKS=1;
