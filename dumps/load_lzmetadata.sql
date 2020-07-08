@@ -1,7 +1,13 @@
+--
+-- Dumping data for table `lzmetadata`
+--
+
+SET FOREIGN_KEY_CHECKS=0;
+
 LOCK TABLES `lzmetadata` WRITE;
-INSERT INTO `lzmetadata` VALUES 
-('environments','environments','[\"Development\",\"UAT\",\"Staging\",\"PoC\",\"Production\"]','List of environments available',1),
-('folder_structure','folder_structure','[{\"id\": 1, \"isEnabled\": true, \"name\": \"Applications\", \"children\": [{\"id\": 2, \"isEnabled\": true, \"name\": \"Business Unit\", \"children\": [{\"id\": 3, \"isEnabled\": true, \"name\": \"Team\", \"children\": [{\"id\": 4, \"isEnabled\": true, \"name\": \"Solutions\"}]}]}]}]','Landing Zone metadata for folder structure',0),
-('lan_vpc','development','[\"Development\",\"PoC\", \"UAT\", \"Staging\"]','Landing Zone metadata for LAN VPC of Dev environment',1),
-('lan_vpc','production','[\"Production\", \"Staging\"]','Landing Zone metadata for LAN VPC of Prod environment',1);
+/*!40000 ALTER TABLE `lzmetadata` DISABLE KEYS */;
+INSERT INTO `lzmetadata` VALUES ('GCP_PROJECT_URL','https://console.cloud.google.com/home/dashboard?project={{project_id}}');
+/*!40000 ALTER TABLE `lzmetadata` ENABLE KEYS */;
 UNLOCK TABLES;
+
+SET FOREIGN_KEY_CHECKS=0;
