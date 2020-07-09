@@ -27,3 +27,8 @@ docker run --name tb-db \
     -e MYSQL_DATABASE=eagle_db \
     -d gcr.io/tranquility-base-images/tb-db
 ```
+
+## Reload schema and data dumps to your local database
+```
+MYSQL_PWD=<password> ./run-scripts-local-db.sh
+```
