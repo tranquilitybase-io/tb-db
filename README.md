@@ -30,5 +30,5 @@ docker run --name tb-db \
 
 ## Reload schema and data dumps to your local database
 ```
-MYSQL_PWD=eagle-user-secret-pw ./run-scripts-local-db.sh
+MYSQL_PWD=<password> ./run-scripts-local-db.sh
 ```
