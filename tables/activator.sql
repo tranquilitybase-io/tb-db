@@ -1,7 +1,6 @@
 --
 -- Table structure for table `activator`
 --
-
 SET FOREIGN_KEY_CHECKS=0;
 
 DROP TABLE IF EXISTS `activator`;
@@ -24,7 +23,6 @@ CREATE TABLE `activator` (
   `regions` varchar(255) DEFAULT NULL,
   `hosting` varchar(255) DEFAULT NULL,
   `apiManagement` varchar(255) DEFAULT NULL,
-  `ci` varchar(255) DEFAULT NULL,
   `cd` varchar(255) DEFAULT NULL,
   `sourceControl` varchar(255) DEFAULT NULL,
   `businessUnit` varchar(255) DEFAULT NULL,
@@ -41,5 +39,5 @@ CREATE TABLE `activator` (
   CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
 SET FOREIGN_KEY_CHECKS=1;
+
