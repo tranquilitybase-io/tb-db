@@ -41,6 +41,7 @@ exec_file tables/lzlanvpc.sql
 exec_file tables/lzlanvpc_environment.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
+exec_file tables/activator_ci.sql
 exec_file tables/lzmetadata.sql
 exec_file tables/lzfolderstructurechild.sql
 exec_file tables/solution.sql
@@ -73,6 +74,7 @@ exec_file dumps/load_vpconpremisevendor.sql
 
 # tables with FK Constraints
 exec_file dumps/load_activator.sql
+exec_file dumps/load_activator_ci.sql
 exec_file dumps/load_solution.sql
 exec_file dumps/load_application.sql
 exec_file dumps/load_solutionenvironment.sql
