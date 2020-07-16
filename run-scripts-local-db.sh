@@ -37,10 +37,14 @@ exec_file tables/subnetmode.sql
 exec_file tables/businessunit.sql
 exec_file tables/landingzoneprogressitem.sql
 exec_file tables/lzlanvpc.sql
+exec_file tables/notificationType.sql
+
+
 
 exec_file tables/lzlanvpc_environment.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
+exec_file tables/notification.sql
 exec_file tables/lzmetadata.sql
 exec_file tables/lzfolderstructurechild.sql
 exec_file tables/solution.sql
@@ -70,6 +74,8 @@ exec_file dumps/load_lzmetadata.sql
 exec_file dumps/load_role.sql
 exec_file dumps/load_sourcecontrol.sql
 exec_file dumps/load_vpconpremisevendor.sql
+exec_file dumps/load_notificationType.sql
+
 
 # tables with FK Constraints
 exec_file dumps/load_activator.sql
@@ -79,3 +85,4 @@ exec_file dumps/load_solutionenvironment.sql
 exec_file dumps/load_solutionresource.sql
 exec_file dumps/load_solutionresourcejson.sql
 exec_file dumps/load_teammember.sql
+
