@@ -44,7 +44,6 @@ exec_file tables/notificationType.sql
 exec_file tables/lzlanvpc_environment.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
-exec_file tables/notification.sql
 exec_file tables/lzmetadata.sql
 exec_file tables/lzfolderstructurechild.sql
 exec_file tables/solution.sql
@@ -53,6 +52,11 @@ exec_file tables/applicationDeployment.sql
 exec_file tables/solutionenvironment.sql
 exec_file tables/solutionresource.sql
 exec_file tables/solution_resource_json.sql
+exec_file tables/notification.sql
+exec_file tables/notificationActivator.sql
+exec_file tables/notificationTeam.sql
+
+
 
 # Load data
 # tables with no FK constraints

@@ -1,3 +1,5 @@
+SET FOREIGN_KEY_CHECKS=0;
+
 DROP TABLE IF EXISTS `notificationActivator`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -11,3 +13,5 @@ CREATE TABLE `notificationActivator` (
   CONSTRAINT `FK_notificationActivator_activatorId` FOREIGN KEY (`activatorId`) REFERENCES `activator` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+SET FOREIGN_KEY_CHECKS=1;
