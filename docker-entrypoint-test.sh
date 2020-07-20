@@ -41,6 +41,7 @@ exec_file /srv/lzlanvpc.sql
 exec_file /srv/lzlanvpc_environment.sql
 exec_file /srv/teammember.sql
 exec_file /srv/activator.sql
+exec_file /srv/activator_ci.sql
 exec_file /srv/lzmetadata.sql
 exec_file /srv/lzfolderstructurechild.sql
 exec_file /srv/solution.sql
