@@ -20,6 +20,7 @@ SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
 SOURCE /srv/teammember.sql;
 SOURCE /srv/activator.sql;
+SOURCE /srv/activator_ci.sql;
 SOURCE /srv/lzmetadata.sql;
 SOURCE /srv/lzfolderstructurechild.sql;
 SOURCE /srv/solution.sql;
