@@ -50,6 +50,13 @@ exec_file /srv/applicationDeployment.sql
 exec_file /srv/solutionenvironment.sql
 exec_file /srv/solutionresource.sql
 exec_file /srv/solution_resource_json.sql
+exec_file /srv/notification.sql
+exec_file /srv/notificationActivator.sql
+exec_file /srv/notificationTeam.sql
+exec_file /srv/notificationType.sql
+
+
+
 
 # Load data
 # tables with no FK constraints
@@ -80,3 +87,6 @@ exec_file /srv/load_solutionenvironment.sql
 exec_file /srv/load_solutionresource.sql
 exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
+exec_file /srv/load_notification.sql
+
+

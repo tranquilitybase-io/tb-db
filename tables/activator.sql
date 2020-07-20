@@ -35,6 +35,7 @@ CREATE TABLE `activator` (
   `accessRequestedById` int(11) DEFAULT NULL,
   `source` varchar(100) DEFAULT NULL,
   `activatorLink` varchar(255) DEFAULT NULL,
+  `gitRepoUrl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
