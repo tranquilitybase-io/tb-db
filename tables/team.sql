@@ -13,8 +13,10 @@ CREATE TABLE `team` (
   `description` varchar(200) NOT NULL,
   `businessUnitId` int(11) NOT NULL,
   `isActive` tinyint(1) NOT NULL DEFAULT '0',
+  `accessRequestedById` int(11) DEFAULT NULL,
   `lastUpdated` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  CONSTRAINT `FK_team_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
