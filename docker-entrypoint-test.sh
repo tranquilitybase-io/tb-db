@@ -81,6 +81,7 @@ exec_file /srv/load_vpconpremisevendor.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql
+exec_file /srv/load_activator_ci.sql
 exec_file /srv/load_solution.sql
 exec_file /srv/load_application.sql
 exec_file /srv/load_solutionenvironment.sql
