@@ -56,6 +56,7 @@ SOURCE /srv/load_role.sql
 SOURCE /srv/load_sourcecontrol.sql
 SOURCE /srv/load_vpconpremisevendor.sql
 SOURCE /srv/load_activator.sql
+SOURCE /srv/load_activator_ci.sql
 SOURCE /srv/load_solution.sql
 SOURCE /srv/load_application.sql
 SOURCE /srv/load_solutionenvironment.sql
