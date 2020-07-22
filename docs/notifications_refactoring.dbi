@@ -1,0 +1,70 @@
+//// -- LEVEL 1
+//// -- Tables and References
+
+// Creating references
+// You can also define relaionship separately
+// > many-to-one; < one-to-many; - one-to-one
+// Ref: U.country_code > countries.code  
+// Ref: merchants.country_code > countries.code
+
+// Ref: products.merchant_id > merchants.id // many-to-one
+// composite foreign key
+// Ref: merchant_periods.(merchant_id, country_code) > merchants.(id, country_code)
+
+//----------------------------------------------//
+
+Table notification as N {
+  id int [pk, increment] // auto-increment
+  isActive boolean
+  lastUpdated datetime
+  fromUserId int
+  toUserId int
+  importance int
+  message varchar
+  isRead boolean
+  typeId int
+}
+
+Table notificationType {
+  id int [pk]
+  isActive boolean
+  lastUpdated datetime
+  name varchar
+ }
+
+Table notificationActivator as NA {
+  notificationId int
+  activatorId int
+  isActive boolean
+  lastUpdated datetime
+}
+
+Table notificationTeam as NT {
+  notificationId int
+  teamId int
+  isActive boolean
+  lastUpdated datetime
+}
+
+Table notificationSolutionDeployment as NSD {
+  notificationId int
+  solutionId int
+  isActive boolean
+  lastUpdated datetime
+}
+
+
+Table notificationApplicationDeployment as NAD {
+  notificationId int
+  applicationId int
+  isActive boolean
+  lastUpdated datetime
+}
+
+Ref: notification.typeId > notificationType.id
+Ref: notification.id - notificationActivator.notificationId
+Ref: notification.id - notificationTeam.notificationId
+Ref: notification.id - notificationSolutionDeployment.notificationId
+Ref: notification.id - notificationApplicationDeployment.notificationId
+
+
