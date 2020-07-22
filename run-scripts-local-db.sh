@@ -56,6 +56,8 @@ exec_file tables/solution_resource_json.sql
 exec_file tables/notification.sql
 exec_file tables/notificationActivator.sql
 exec_file tables/notificationTeam.sql
+exec_file tables/userRole.sql
+
 
 
 
@@ -91,4 +93,5 @@ exec_file dumps/load_solutionenvironment.sql
 exec_file dumps/load_solutionresource.sql
 exec_file dumps/load_solutionresourcejson.sql
 exec_file dumps/load_teammember.sql
+exec_file dumps/load_userRole.sql
 

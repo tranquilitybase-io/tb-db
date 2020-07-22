@@ -54,6 +54,8 @@ exec_file /srv/notification.sql
 exec_file /srv/notificationActivator.sql
 exec_file /srv/notificationTeam.sql
 exec_file /srv/notificationType.sql
+exec_file /srv/userRole.sql
+
 
 
 
@@ -89,5 +91,7 @@ exec_file /srv/load_solutionresource.sql
 exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
+exec_file /srv/load_userRole.sql
+
 
 
