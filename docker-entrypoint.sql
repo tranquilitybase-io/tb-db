@@ -7,7 +7,7 @@ SOURCE /srv/lzenvironment.sql;
 SOURCE /srv/team.sql;
 SOURCE /srv/landingzonewan.sql;
 SOURCE /srv/folder.sql;
-SOURCE /srv/role.sql;
+SOURCE /srv/cloudRole.sql;
 SOURCE /srv/sourcecontrol.sql;
 SOURCE /srv/bgproutingmode.sql;
 SOURCE /srv/vpnonpremisevendor.sql;
@@ -33,7 +33,7 @@ SOURCE /srv/notification.sql;
 SOURCE /srv/notificationType.sql;
 SOURCE /srv/notificationActivator.sql;
 SOURCE /srv/notificationTeam.sql;
-SOURCE /srv/userRole.sql;
+SOURCE /srv/userCloudRole.sql;
 
 
 
@@ -54,7 +54,7 @@ SOURCE /srv/load_lzlanvpc_environment.sql
 SOURCE /srv/load_businessunit.sql
 SOURCE /srv/load_lzenvironment.sql
 SOURCE /srv/load_lzmetadata.sql
-SOURCE /srv/load_role.sql
+SOURCE /srv/load_cloudRole.sql
 SOURCE /srv/load_sourcecontrol.sql
 SOURCE /srv/load_vpconpremisevendor.sql
 SOURCE /srv/load_activator.sql
@@ -66,5 +66,5 @@ SOURCE /srv/load_solutionresource.sql
 SOURCE /srv/load_solutionresourcejson.sql
 SOURCE /srv/load_teammember.sql
 SOURCE /srv/load_notificationType.sql
-SOURCE /srv/load_userRole.sql;
+SOURCE /srv/load_userCloudRole.sql;
 

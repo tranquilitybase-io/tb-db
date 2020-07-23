@@ -27,7 +27,7 @@ exec_file tables/lzenvironment.sql
 exec_file tables/team.sql
 exec_file tables/landingzonewan.sql
 exec_file tables/folder.sql
-exec_file tables/role.sql
+exec_file tables/cloudRole.sql
 exec_file tables/sourcecontrol.sql
 exec_file tables/bgproutingmode.sql
 exec_file tables/vpnonpremisevendor.sql
@@ -56,7 +56,7 @@ exec_file tables/solution_resource_json.sql
 exec_file tables/notification.sql
 exec_file tables/notificationActivator.sql
 exec_file tables/notificationTeam.sql
-exec_file tables/userRole.sql
+exec_file tables/userCloudRole.sql
 
 
 
@@ -78,7 +78,7 @@ exec_file dumps/load_lzlanvpc_environment.sql
 exec_file dumps/load_businessunit.sql
 exec_file dumps/load_lzenvironment.sql
 exec_file dumps/load_lzmetadata.sql
-exec_file dumps/load_role.sql
+exec_file dumps/load_cloudRole.sql
 exec_file dumps/load_sourcecontrol.sql
 exec_file dumps/load_vpconpremisevendor.sql
 exec_file dumps/load_notificationType.sql
@@ -93,5 +93,5 @@ exec_file dumps/load_solutionenvironment.sql
 exec_file dumps/load_solutionresource.sql
 exec_file dumps/load_solutionresourcejson.sql
 exec_file dumps/load_teammember.sql
-exec_file dumps/load_userRole.sql
+exec_file dumps/load_userCloudRole.sql
 
