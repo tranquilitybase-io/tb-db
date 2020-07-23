@@ -8,7 +8,7 @@ CREATE TABLE `notificationSolutionDeployment` (
   `solutionId` int(11) NOT NULL,
   `isActive` tinyint(1) NOT NULL DEFAULT '1',
   `lastUpdated` datetime DEFAULT NULL,
-  PRIMARY KEY (`notificationId`, `teamId`),
+  PRIMARY KEY (`notificationId`, `solutionId`),
   CONSTRAINT `FK_notificationSolutionDeployment_notificationId` FOREIGN KEY (`notificationId`) REFERENCES `notification` (`id`),  
   CONSTRAINT `FK_notificationSolutionDeployment_solutionId` FOREIGN KEY (`solutionId`) REFERENCES `solution` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
