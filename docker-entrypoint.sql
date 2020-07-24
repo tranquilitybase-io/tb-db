@@ -33,6 +33,8 @@ SOURCE /srv/notification.sql;
 SOURCE /srv/notificationType.sql;
 SOURCE /srv/notificationActivator.sql;
 SOURCE /srv/notificationTeam.sql;
+SOURCE /srv/notificationApplicationDeployment.sql;
+SOURCE /srv/notificationSolutionDeployment.sql;
 
 
 
@@ -63,4 +65,4 @@ SOURCE /srv/load_solutionenvironment.sql
 SOURCE /srv/load_solutionresource.sql
 SOURCE /srv/load_solutionresourcejson.sql
 SOURCE /srv/load_teammember.sql
-SOURCE /srv/load_notificationType.sql;
+SOURCE /srv/load_notificationType.sql
