@@ -56,8 +56,8 @@ exec_file tables/solution_resource_json.sql
 exec_file tables/notification.sql
 exec_file tables/notificationActivator.sql
 exec_file tables/notificationTeam.sql
-exec_file tables/notificationApplicationDeployment.sql;
-exec_file tables/notificationSolutionDeployment.sql;
+exec_file tables/notificationApplicationDeployment.sql
+exec_file tables/notificationSolutionDeployment.sql
 
 
 

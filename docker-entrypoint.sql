@@ -65,4 +65,4 @@ SOURCE /srv/load_solutionenvironment.sql
 SOURCE /srv/load_solutionresource.sql
 SOURCE /srv/load_solutionresourcejson.sql
 SOURCE /srv/load_teammember.sql
-SOURCE /srv/load_notificationType.sql;
+SOURCE /srv/load_notificationType.sql
