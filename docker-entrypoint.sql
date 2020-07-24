@@ -33,6 +33,8 @@ SOURCE /srv/notification.sql;
 SOURCE /srv/notificationType.sql;
 SOURCE /srv/notificationActivator.sql;
 SOURCE /srv/notificationTeam.sql;
+SOURCE /srv/notificationApplicationDeployment.sql;
+SOURCE /srv/notificationSolutionDeployment.sql;
 
 
 
