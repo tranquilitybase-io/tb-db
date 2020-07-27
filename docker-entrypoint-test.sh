@@ -54,8 +54,9 @@ exec_file /srv/notification.sql
 exec_file /srv/notificationActivator.sql
 exec_file /srv/notificationTeam.sql
 exec_file /srv/notificationType.sql
+exec_file /srv/notificationApplicationDeployment.sql
+exec_file /srv/notificationSolutionDeployment.sql
 exec_file /srv/userCloudRole.sql
-
 
 
 
