@@ -18,6 +18,7 @@ SOURCE /srv/businessunit.sql;
 SOURCE /srv/landingzoneprogressitem.sql;
 SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
+SOURCE /srv/lzlanvpc_network_size.sql;
 SOURCE /srv/teammember.sql;
 SOURCE /srv/activator.sql;
 SOURCE /srv/activator_ci.sql;
@@ -49,6 +50,7 @@ SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql
 SOURCE /srv/load_landingzoneaction.sql
 SOURCE /srv/load_lzlanvpc.sql
+SOURCE /srv/load_lzlanvpc_network_size.sql
 SOURCE /srv/load_team.sql
 SOURCE /srv/load_bpgroutingmode.sql
 SOURCE /srv/load_landingzoneprogressitem.sql

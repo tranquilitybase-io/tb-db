@@ -39,6 +39,7 @@ exec_file /srv/landingzoneprogressitem.sql
 exec_file /srv/lzlanvpc.sql
 
 exec_file /srv/lzlanvpc_environment.sql
+exec_file /srv/lzlanvpc_network_size.sql
 exec_file /srv/teammember.sql
 exec_file /srv/activator.sql
 exec_file /srv/activator_ci.sql
@@ -75,6 +76,7 @@ exec_file /srv/load_team.sql
 exec_file /srv/load_bpgroutingmode.sql
 exec_file /srv/load_landingzoneprogressitem.sql
 exec_file /srv/load_lzlanvpc_environment.sql
+exec_file /srv/load_lzlanvpc_network_size.sql
 exec_file /srv/load_businessunit.sql
 exec_file /srv/load_lzenvironment.sql
 exec_file /srv/load_lzmetadata.sql

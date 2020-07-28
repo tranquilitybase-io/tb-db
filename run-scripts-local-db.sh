@@ -42,6 +42,7 @@ exec_file tables/notificationType.sql
 
 
 exec_file tables/lzlanvpc_environment.sql
+exec_file tables/lzlanvpc_network_size.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
 exec_file tables/activator_ci.sql
@@ -76,6 +77,7 @@ exec_file dumps/load_team.sql
 exec_file dumps/load_bpgroutingmode.sql
 exec_file dumps/load_landingzoneprogressitem.sql
 exec_file dumps/load_lzlanvpc_environment.sql
+exec_file dumps/load_lzlanvpc_network_size.sql
 exec_file dumps/load_businessunit.sql
 exec_file dumps/load_lzenvironment.sql
 exec_file dumps/load_lzmetadata.sql
