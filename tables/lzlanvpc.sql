@@ -7,11 +7,10 @@ DROP TABLE IF EXISTS `lzlanvpc`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `lzlanvpc` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `sharedVPCId` int(11) NOT NULL,
   `name` varchar(45) DEFAULT NULL,
+  `sharedVPCProjectId` varchar(255) DEFAULT NULL,
   `isActive` tinyint(4) DEFAULT '1',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `idlzlanvpc_UNIQUE` (`id`),
-  CONSTRAINT `FK_lzlanvpc_sharedVPCId` FOREIGN KEY (`sharedVPCId`) REFERENCES `lzlanvpc_network_size` (`id`)
+  UNIQUE KEY `idlzlanvpc_UNIQUE` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
