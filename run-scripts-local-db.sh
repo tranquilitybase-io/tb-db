@@ -36,13 +36,13 @@ exec_file tables/landingzoneaction.sql
 exec_file tables/subnetmode.sql
 exec_file tables/businessunit.sql
 exec_file tables/landingzoneprogressitem.sql
+exec_file tables/lzlanvpc_network_size.sql
 exec_file tables/lzlanvpc.sql
 exec_file tables/notificationType.sql
 
 
 
 exec_file tables/lzlanvpc_environment.sql
-exec_file tables/lzlanvpc_network_size.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
 exec_file tables/activator_ci.sql
@@ -72,12 +72,12 @@ exec_file dumps/load_lzfolderstructure.sql
 exec_file dumps/load_lzfolderstructurechild.sql
 exec_file dumps/load_subnetmode.sql
 exec_file dumps/load_landingzoneaction.sql
+exec_file dumps/load_lzlanvpc_network_size.sql
 exec_file dumps/load_lzlanvpc.sql
 exec_file dumps/load_team.sql
 exec_file dumps/load_bpgroutingmode.sql
 exec_file dumps/load_landingzoneprogressitem.sql
 exec_file dumps/load_lzlanvpc_environment.sql
-exec_file dumps/load_lzlanvpc_network_size.sql
 exec_file dumps/load_businessunit.sql
 exec_file dumps/load_lzenvironment.sql
 exec_file dumps/load_lzmetadata.sql
