@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS `lzlanvpc`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `lzlanvpc` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `sharedVPCProjectId` varchar(255) DEFAULT NULL,
   `name` varchar(45) DEFAULT NULL,
   `isActive` tinyint(4) DEFAULT '1',
   PRIMARY KEY (`id`),
