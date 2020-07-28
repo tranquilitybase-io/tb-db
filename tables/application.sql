@@ -14,6 +14,7 @@ CREATE TABLE `application` (
   `description` varchar(255) DEFAULT NULL,
   `resources` varchar(255) DEFAULT '[]',
   PRIMARY KEY (`id`),
+  UNIQUE(solutionId, name),
   KEY `FK_application_solutionId` (`solutionId`),
   KEY `FK_application_activatorId` (`activatorId`),
   CONSTRAINT `FK_application_activatorId` FOREIGN KEY (`activatorId`) REFERENCES `activator` (`id`),
