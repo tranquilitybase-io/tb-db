@@ -3,6 +3,7 @@ SELECT 'Creating tables' as 'INFO';
 SOURCE /srv/user.sql;
 SOURCE /srv/ci.sql;
 SOURCE /srv/cd.sql;
+SOURCE /srv/environment.sql;
 SOURCE /srv/lzenvironment.sql;
 SOURCE /srv/team.sql;
 SOURCE /srv/landingzonewan.sql;
@@ -20,7 +21,9 @@ SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
 SOURCE /srv/teammember.sql;
 SOURCE /srv/activator.sql;
-SOURCE /srv/activator_ci.sql;
+SOURCE /srv/activatorCI.sql;
+SOURCE /srv/activatorCD.sql;
+SOURCE /srv/activatorEnvironment.sql;
 SOURCE /srv/lzmetadata.sql;
 SOURCE /srv/lzfolderstructurechild.sql;
 SOURCE /srv/solution.sql;
@@ -36,6 +39,9 @@ SOURCE /srv/notificationTeam.sql;
 SOURCE /srv/notificationApplicationDeployment.sql;
 SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/userCloudRole.sql;
+SOURCE /srv/environment.sql;
+
+
 
 
 
@@ -44,6 +50,7 @@ SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
 SOURCE /srv/load_ci.sql
 SOURCE /srv/load_cd.sql
+SOURCE /srv/load_environment.sql
 SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql
@@ -60,7 +67,9 @@ SOURCE /srv/load_cloudRole.sql
 SOURCE /srv/load_sourcecontrol.sql
 SOURCE /srv/load_vpconpremisevendor.sql
 SOURCE /srv/load_activator.sql
-SOURCE /srv/load_activator_ci.sql
+SOURCE /srv/load_activatorCI.sql
+SOURCE /srv/load_activatorCD.sql
+SOURCE /srv/load_activatorEnvironment.sql
 SOURCE /srv/load_solution.sql
 SOURCE /srv/load_application.sql
 SOURCE /srv/load_solutionenvironment.sql

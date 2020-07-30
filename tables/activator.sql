@@ -22,7 +22,7 @@ CREATE TABLE `activator` (
   `regions` varchar(255) DEFAULT NULL,
   `hosting` varchar(255) DEFAULT NULL,
   `apiManagement` varchar(255) DEFAULT NULL,
-  `sourceControl` varchar(255) DEFAULT NULL,
+  `sourceControlId` int(11) DEFAULT NULL,
   `businessUnit` varchar(255) DEFAULT NULL,
   `technologyOwner` varchar(255) DEFAULT NULL,
   `technologyOwnerEmail` varchar(255) DEFAULT NULL,

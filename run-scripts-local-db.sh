@@ -23,6 +23,7 @@ function exec_file {
 exec_file tables/user.sql
 exec_file tables/ci.sql
 exec_file tables/cd.sql
+exec_file tables/environment.sql
 exec_file tables/lzenvironment.sql
 exec_file tables/team.sql
 exec_file tables/landingzonewan.sql
@@ -44,7 +45,9 @@ exec_file tables/notificationType.sql
 exec_file tables/lzlanvpc_environment.sql
 exec_file tables/teammember.sql
 exec_file tables/activator.sql
-exec_file tables/activator_ci.sql
+exec_file tables/activatorCI.sql
+exec_file tables/activatorCD.sql
+exec_file tables/activatorEnvironment.sql
 exec_file tables/lzmetadata.sql
 exec_file tables/lzfolderstructurechild.sql
 exec_file tables/solution.sql
@@ -59,6 +62,7 @@ exec_file tables/notificationTeam.sql
 exec_file tables/notificationApplicationDeployment.sql
 exec_file tables/notificationSolutionDeployment.sql
 exec_file tables/userCloudRole.sql
+exec_file tables/environment.sql
 
 
 
@@ -67,6 +71,7 @@ exec_file tables/userCloudRole.sql
 exec_file dumps/load_user.sql
 exec_file dumps/load_ci.sql
 exec_file dumps/load_cd.sql
+exec_file dumps/load_environment.sql
 exec_file dumps/load_lzfolderstructure.sql
 exec_file dumps/load_lzfolderstructurechild.sql
 exec_file dumps/load_subnetmode.sql
@@ -87,7 +92,9 @@ exec_file dumps/load_notificationType.sql
 
 # tables with FK Constraints
 exec_file dumps/load_activator.sql
-exec_file dumps/load_activator_ci.sql
+exec_file dumps/load_activatorCI.sql
+exec_file dumps/load_activatorCD.sql
+exec_file dumps/load_activatorEnvironment.sql
 exec_file dumps/load_solution.sql
 exec_file dumps/load_application.sql
 exec_file dumps/load_solutionenvironment.sql
@@ -95,4 +102,3 @@ exec_file dumps/load_solutionresource.sql
 exec_file dumps/load_solutionresourcejson.sql
 exec_file dumps/load_teammember.sql
 exec_file dumps/load_userCloudRole.sql
-

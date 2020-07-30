@@ -23,6 +23,7 @@ function exec_file {
 exec_file /srv/user.sql
 exec_file /srv/ci.sql
 exec_file /srv/cd.sql
+exec_file /srv/environment.sql
 exec_file /srv/lzenvironment.sql
 exec_file /srv/team.sql
 exec_file /srv/landingzonewan.sql
@@ -41,7 +42,9 @@ exec_file /srv/lzlanvpc.sql
 exec_file /srv/lzlanvpc_environment.sql
 exec_file /srv/teammember.sql
 exec_file /srv/activator.sql
-exec_file /srv/activator_ci.sql
+exec_file /srv/activatorCI.sql
+exec_file /srv/activatorCD.sql
+exec_file /srv/activatorEnvironment.sql
 exec_file /srv/lzmetadata.sql
 exec_file /srv/lzfolderstructurechild.sql
 exec_file /srv/solution.sql
@@ -61,11 +64,14 @@ exec_file /srv/userCloudRole.sql
 
 
 
+
+
 # Load data
 # tables with no FK constraints
 exec_file /srv/load_user.sql
 exec_file /srv/load_ci.sql
 exec_file /srv/load_cd.sql
+exec_file /srv/load_environment.sql
 exec_file /srv/load_lzfolderstructure.sql
 exec_file /srv/load_lzfolderstructurechild.sql
 exec_file /srv/load_subnetmode.sql
@@ -84,7 +90,9 @@ exec_file /srv/load_vpconpremisevendor.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql
-exec_file /srv/load_activator_ci.sql
+exec_file /srv/load_activatorCI.sql
+exec_file /srv/load_activatorCD.sql
+exec_file /srv/load_activatorEnvironment.sql
 exec_file /srv/load_solution.sql
 exec_file /srv/load_application.sql
 exec_file /srv/load_solutionenvironment.sql
@@ -93,6 +101,7 @@ exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
 exec_file /srv/load_userCloudRole.sql
+
 
 
 
