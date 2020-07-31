@@ -39,7 +39,6 @@ SOURCE /srv/notificationTeam.sql;
 SOURCE /srv/notificationApplicationDeployment.sql;
 SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/userCloudRole.sql;
-SOURCE /srv/environment.sql;
 
 
 

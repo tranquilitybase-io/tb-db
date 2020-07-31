@@ -35,7 +35,8 @@ CREATE TABLE `activator` (
   `activatorLink` varchar(255) DEFAULT NULL,
   `gitRepoUrl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
+  CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`),
+  CONSTRAINT `FK_activator_sourceControlId` FOREIGN KEY (`sourceControlId`) REFERENCES `sourcecontrol` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 SET FOREIGN_KEY_CHECKS=1;
