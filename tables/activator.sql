@@ -25,7 +25,7 @@ CREATE TABLE `activator` (
   `apiManagement` varchar(255) DEFAULT NULL,
   `cd` varchar(255) DEFAULT NULL,
   `sourceControl` varchar(255) DEFAULT NULL,
-  `businessUnit` varchar(255) DEFAULT NULL,
+  `businessUnitId` int(11) DEFAULT NULL,
   `technologyOwner` varchar(255) DEFAULT NULL,
   `technologyOwnerEmail` varchar(255) DEFAULT NULL,
   `billing` varchar(255) DEFAULT NULL,
