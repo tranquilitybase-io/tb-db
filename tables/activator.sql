@@ -16,15 +16,13 @@ CREATE TABLE `activator` (
   `available` tinyint(1) DEFAULT NULL,
   `sensitivity` varchar(255) DEFAULT NULL,
   `type` varchar(255) DEFAULT NULL,
-  `envs` varchar(255) DEFAULT NULL,
   `platforms` varchar(255) DEFAULT NULL,
   `userCapacity` int(11) DEFAULT NULL,
   `serverCapacity` int(11) DEFAULT NULL,
   `regions` varchar(255) DEFAULT NULL,
   `hosting` varchar(255) DEFAULT NULL,
   `apiManagement` varchar(255) DEFAULT NULL,
-  `cd` varchar(255) DEFAULT NULL,
-  `sourceControl` varchar(255) DEFAULT NULL,
+  `sourceControlId` int(11) DEFAULT NULL,
   `businessUnit` varchar(255) DEFAULT NULL,
   `technologyOwner` varchar(255) DEFAULT NULL,
   `technologyOwnerEmail` varchar(255) DEFAULT NULL,
@@ -37,7 +35,8 @@ CREATE TABLE `activator` (
   `activatorLink` varchar(255) DEFAULT NULL,
   `gitRepoUrl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
+  CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`),
+  CONSTRAINT `FK_activator_sourceControlId` FOREIGN KEY (`sourceControlId`) REFERENCES `sourcecontrol` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 SET FOREIGN_KEY_CHECKS=1;
