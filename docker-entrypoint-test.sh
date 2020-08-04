@@ -41,7 +41,9 @@ exec_file /srv/lzlanvpc.sql
 exec_file /srv/lzlanvpc_environment.sql
 exec_file /srv/teammember.sql
 exec_file /srv/activator.sql
-exec_file /srv/activator_ci.sql
+exec_file /srv/activatorCI.sql
+exec_file /srv/activatorCD.sql
+exec_file /srv/activatorEnvironment.sql
 exec_file /srv/lzmetadata.sql
 exec_file /srv/lzfolderstructurechild.sql
 exec_file /srv/solution.sql
@@ -57,6 +59,8 @@ exec_file /srv/notificationType.sql
 exec_file /srv/notificationApplicationDeployment.sql
 exec_file /srv/notificationSolutionDeployment.sql
 exec_file /srv/userCloudRole.sql
+
+
 
 
 
@@ -84,7 +88,9 @@ exec_file /srv/load_vpconpremisevendor.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql
-exec_file /srv/load_activator_ci.sql
+exec_file /srv/load_activatorCI.sql
+exec_file /srv/load_activatorCD.sql
+exec_file /srv/load_activatorEnvironment.sql
 exec_file /srv/load_solution.sql
 exec_file /srv/load_application.sql
 exec_file /srv/load_solutionenvironment.sql
@@ -93,6 +99,7 @@ exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
 exec_file /srv/load_userCloudRole.sql
+
 
 
 
