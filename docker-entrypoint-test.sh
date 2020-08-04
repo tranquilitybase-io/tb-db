@@ -23,7 +23,6 @@ function exec_file {
 exec_file /srv/user.sql
 exec_file /srv/ci.sql
 exec_file /srv/cd.sql
-exec_file /srv/environment.sql
 exec_file /srv/lzenvironment.sql
 exec_file /srv/team.sql
 exec_file /srv/landingzonewan.sql
@@ -71,7 +70,6 @@ exec_file /srv/userCloudRole.sql
 exec_file /srv/load_user.sql
 exec_file /srv/load_ci.sql
 exec_file /srv/load_cd.sql
-exec_file /srv/load_environment.sql
 exec_file /srv/load_lzfolderstructure.sql
 exec_file /srv/load_lzfolderstructurechild.sql
 exec_file /srv/load_subnetmode.sql

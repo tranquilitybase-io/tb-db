@@ -3,7 +3,6 @@ SELECT 'Creating tables' as 'INFO';
 SOURCE /srv/user.sql;
 SOURCE /srv/ci.sql;
 SOURCE /srv/cd.sql;
-SOURCE /srv/environment.sql;
 SOURCE /srv/lzenvironment.sql;
 SOURCE /srv/team.sql;
 SOURCE /srv/landingzonewan.sql;
@@ -49,7 +48,6 @@ SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
 SOURCE /srv/load_ci.sql
 SOURCE /srv/load_cd.sql
-SOURCE /srv/load_environment.sql
 SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql

@@ -9,6 +9,6 @@ CREATE TABLE `activatorEnvironment` (
   UNIQUE KEY `id_UNIQUE` (`id`),
   KEY `FK_activatorEnvironment_envId` (`envId`),
   KEY `FK_activatorEnvironment_activatorId` (`activatorId`),
-  CONSTRAINT `FK_activatorEnvironment_envId` FOREIGN KEY (`envId`) REFERENCES `environment` (`id`),
+  CONSTRAINT `FK_activatorEnvironment_envId` FOREIGN KEY (`envId`) REFERENCES `lzenvironment` (`id`),
   CONSTRAINT `FK_activatorEnvironment_activatorId` FOREIGN KEY (`activatorId`) REFERENCES `activator` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

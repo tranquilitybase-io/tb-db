@@ -23,7 +23,6 @@ function exec_file {
 exec_file tables/user.sql
 exec_file tables/ci.sql
 exec_file tables/cd.sql
-exec_file tables/environment.sql
 exec_file tables/lzenvironment.sql
 exec_file tables/team.sql
 exec_file tables/landingzonewan.sql
@@ -62,7 +61,6 @@ exec_file tables/notificationTeam.sql
 exec_file tables/notificationApplicationDeployment.sql
 exec_file tables/notificationSolutionDeployment.sql
 exec_file tables/userCloudRole.sql
-exec_file tables/environment.sql
 
 
 
@@ -71,7 +69,6 @@ exec_file tables/environment.sql
 exec_file dumps/load_user.sql
 exec_file dumps/load_ci.sql
 exec_file dumps/load_cd.sql
-exec_file dumps/load_environment.sql
 exec_file dumps/load_lzfolderstructure.sql
 exec_file dumps/load_lzfolderstructurechild.sql
 exec_file dumps/load_subnetmode.sql
