@@ -27,6 +27,8 @@ CREATE TABLE `solution` (
   `teamId` int(11) DEFAULT NULL,
   `deploymentFolderId` varchar(50) DEFAULT NULL,
   `businessUnitId` int(11) DEFAULT NULL,
+  `rollbackState` varchar(45) DEFAULT NULL,
+  `rollbackTaskId` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_solution_teamId` (`teamId`),
   CONSTRAINT `FK_solution_teamId` FOREIGN KEY (`teamId`) REFERENCES `team` (`id`),
