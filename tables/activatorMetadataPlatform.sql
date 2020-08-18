@@ -9,6 +9,6 @@ CREATE TABLE `activatorMetadataPlatform` (
   UNIQUE KEY `id_UNIQUE` (`id`),
   KEY `FK_activatorMetadataPlatform_platformId` (`platformId`),
   KEY `FK_activatorMetadataPlatform_activatorMetadataId` (`activatorMetadataId`),
-  CONSTRAINT `FK_actMetaPlatform_ciId` FOREIGN KEY (`ciId`) REFERENCES `ci` (`id`),
+  CONSTRAINT `FK_actMetaPlatform_platformId` FOREIGN KEY (`platformId`) REFERENCES `platform` (`id`),
   CONSTRAINT `FK_actMetaPlatform_activatorMetaId` FOREIGN KEY (`activatorMetadataId`) REFERENCES `activatorMetadata` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

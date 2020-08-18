@@ -19,6 +19,8 @@ SOURCE /srv/landingzoneprogressitem.sql;
 SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
 SOURCE /srv/teammember.sql;
+SOURCE /srv/type.sql;
+SOURCE /srv/platform.sql;
 SOURCE /srv/activator.sql;
 SOURCE /srv/activatorCI.sql;
 SOURCE /srv/activatorCD.sql;
@@ -38,6 +40,8 @@ SOURCE /srv/notificationTeam.sql;
 SOURCE /srv/notificationApplicationDeployment.sql;
 SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/userCloudRole.sql;
+SOURCE /srv/activatorMetadata.sql;
+SOURCE tab/srv/activatorMetadataPlatform.sql;
 
 
 

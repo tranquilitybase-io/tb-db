@@ -38,6 +38,10 @@ exec_file tables/businessunit.sql
 exec_file tables/landingzoneprogressitem.sql
 exec_file tables/lzlanvpc.sql
 exec_file tables/notificationType.sql
+exec_file tables/type.sql
+exec_file tables/platform.sql
+
+
 
 
 
@@ -61,6 +65,9 @@ exec_file tables/notificationTeam.sql
 exec_file tables/notificationApplicationDeployment.sql
 exec_file tables/notificationSolutionDeployment.sql
 exec_file tables/userCloudRole.sql
+exec_file tables/activatorMetadata.sql
+exec_file tables/activatorMetadataPlatform.sql
+
 
 
 
