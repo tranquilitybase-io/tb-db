@@ -90,6 +90,8 @@ exec_file /srv/load_lzmetadata.sql
 exec_file /srv/load_cloudRole.sql
 exec_file /srv/load_sourcecontrol.sql
 exec_file /srv/load_vpconpremisevendor.sql
+exec_file /srv/load_platform.sql
+exec_file /srv/load_type.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql

@@ -53,6 +53,8 @@ SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
 SOURCE /srv/load_ci.sql
 SOURCE /srv/load_cd.sql
+SOURCE /srv/load_platform.sql
+SOURCE /srv/load_type.sql
 SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql

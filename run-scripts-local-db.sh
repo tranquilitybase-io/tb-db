@@ -93,6 +93,8 @@ exec_file dumps/load_cloudRole.sql
 exec_file dumps/load_sourcecontrol.sql
 exec_file dumps/load_vpconpremisevendor.sql
 exec_file dumps/load_notificationType.sql
+exec_file dumps/load_platform.sql
+exec_file dumps/load_type.sql
 
 
 # tables with FK Constraints
