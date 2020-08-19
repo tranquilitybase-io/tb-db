@@ -41,7 +41,8 @@ SOURCE /srv/notificationApplicationDeployment.sql;
 SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/userCloudRole.sql;
 SOURCE /srv/activatorMetadata.sql;
-SOURCE tab/srv/activatorMetadataPlatform.sql;
+SOURCE /srv/activatorMetadataPlatform.sql;
+SOURCE /srv/activatorMetadataVariables.sql;
 
 
 

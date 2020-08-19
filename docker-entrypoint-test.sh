@@ -63,6 +63,7 @@ exec_file /srv/notificationSolutionDeployment.sql
 exec_file /srv/userCloudRole.sql
 exec_file /srv/activatorMetadata.sql
 exec_file /srv/activatorMetadataPlatform.sql
+exec_file /srv/activatorMetadataVariables.sql
 
 
 

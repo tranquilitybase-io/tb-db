@@ -67,6 +67,7 @@ exec_file tables/notificationSolutionDeployment.sql
 exec_file tables/userCloudRole.sql
 exec_file tables/activatorMetadata.sql
 exec_file tables/activatorMetadataPlatform.sql
+exec_file tables/activatorMetadataVariables.sql
 
 
 
