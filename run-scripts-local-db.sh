@@ -102,6 +102,7 @@ exec_file dumps/load_activator.sql
 exec_file dumps/load_activatorCI.sql
 exec_file dumps/load_activatorCD.sql
 exec_file dumps/load_activatorEnvironment.sql
+exec_file dumps/load_activatorMetadata.sql
 exec_file dumps/load_solution.sql
 exec_file dumps/load_application.sql
 exec_file dumps/load_solutionenvironment.sql
