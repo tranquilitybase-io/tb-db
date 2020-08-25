@@ -75,6 +75,7 @@ SOURCE /srv/load_activatorCI.sql
 SOURCE /srv/load_activatorCD.sql
 SOURCE /srv/load_activatorEnvironment.sql
 SOURCE /srv/load_activatorMetadata.sql
+SOURCE /srv/load_activatorMetadataPlatform.sql
 SOURCE /srv/load_solution.sql
 SOURCE /srv/load_application.sql
 SOURCE /srv/load_solutionenvironment.sql

@@ -99,6 +99,7 @@ exec_file /srv/load_activatorCI.sql
 exec_file /srv/load_activatorCD.sql
 exec_file /srv/load_activatorEnvironment.sql
 exec_file /srv/load_activatorMetadata.sql
+exec_file /srv/load_activatorMetadataPlatform.sql
 exec_file /srv/load_solution.sql
 exec_file /srv/load_application.sql
 exec_file /srv/load_solutionenvironment.sql
