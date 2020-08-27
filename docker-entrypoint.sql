@@ -19,6 +19,8 @@ SOURCE /srv/landingzoneprogressitem.sql;
 SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
 SOURCE /srv/teammember.sql;
+SOURCE /srv/type.sql;
+SOURCE /srv/platform.sql;
 SOURCE /srv/activator.sql;
 SOURCE /srv/activatorCI.sql;
 SOURCE /srv/activatorCD.sql;
@@ -38,6 +40,9 @@ SOURCE /srv/notificationTeam.sql;
 SOURCE /srv/notificationApplicationDeployment.sql;
 SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/userCloudRole.sql;
+SOURCE /srv/activatorMetadata.sql;
+SOURCE /srv/activatorMetadataPlatform.sql;
+SOURCE /srv/activatorMetadataVariables.sql;
 
 
 
@@ -48,6 +53,8 @@ SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
 SOURCE /srv/load_ci.sql
 SOURCE /srv/load_cd.sql
+SOURCE /srv/load_platform.sql
+SOURCE /srv/load_type.sql
 SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql
@@ -67,6 +74,8 @@ SOURCE /srv/load_activator.sql
 SOURCE /srv/load_activatorCI.sql
 SOURCE /srv/load_activatorCD.sql
 SOURCE /srv/load_activatorEnvironment.sql
+SOURCE /srv/load_activatorMetadata.sql
+SOURCE /srv/load_activatorMetadataPlatform.sql
 SOURCE /srv/load_solution.sql
 SOURCE /srv/load_application.sql
 SOURCE /srv/load_solutionenvironment.sql

@@ -38,6 +38,10 @@ exec_file tables/businessunit.sql
 exec_file tables/landingzoneprogressitem.sql
 exec_file tables/lzlanvpc.sql
 exec_file tables/notificationType.sql
+exec_file tables/type.sql
+exec_file tables/platform.sql
+
+
 
 
 
@@ -61,6 +65,10 @@ exec_file tables/notificationTeam.sql
 exec_file tables/notificationApplicationDeployment.sql
 exec_file tables/notificationSolutionDeployment.sql
 exec_file tables/userCloudRole.sql
+exec_file tables/activatorMetadata.sql
+exec_file tables/activatorMetadataPlatform.sql
+exec_file tables/activatorMetadataVariables.sql
+
 
 
 
@@ -85,6 +93,8 @@ exec_file dumps/load_cloudRole.sql
 exec_file dumps/load_sourcecontrol.sql
 exec_file dumps/load_vpconpremisevendor.sql
 exec_file dumps/load_notificationType.sql
+exec_file dumps/load_platform.sql
+exec_file dumps/load_type.sql
 
 
 # tables with FK Constraints
@@ -92,6 +102,8 @@ exec_file dumps/load_activator.sql
 exec_file dumps/load_activatorCI.sql
 exec_file dumps/load_activatorCD.sql
 exec_file dumps/load_activatorEnvironment.sql
+exec_file dumps/load_activatorMetadata.sql
+exec_file dumps/load_activatorMetadataPlatform.sql
 exec_file dumps/load_solution.sql
 exec_file dumps/load_application.sql
 exec_file dumps/load_solutionenvironment.sql

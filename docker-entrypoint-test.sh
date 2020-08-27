@@ -37,6 +37,8 @@ exec_file /srv/subnetmode.sql
 exec_file /srv/businessunit.sql
 exec_file /srv/landingzoneprogressitem.sql
 exec_file /srv/lzlanvpc.sql
+exec_file /srv/type.sql
+exec_file /srv/platform.sql
 
 exec_file /srv/lzlanvpc_environment.sql
 exec_file /srv/teammember.sql
@@ -59,6 +61,9 @@ exec_file /srv/notificationType.sql
 exec_file /srv/notificationApplicationDeployment.sql
 exec_file /srv/notificationSolutionDeployment.sql
 exec_file /srv/userCloudRole.sql
+exec_file /srv/activatorMetadata.sql
+exec_file /srv/activatorMetadataPlatform.sql
+exec_file /srv/activatorMetadataVariables.sql
 
 
 
@@ -85,12 +90,16 @@ exec_file /srv/load_lzmetadata.sql
 exec_file /srv/load_cloudRole.sql
 exec_file /srv/load_sourcecontrol.sql
 exec_file /srv/load_vpconpremisevendor.sql
+exec_file /srv/load_platform.sql
+exec_file /srv/load_type.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql
 exec_file /srv/load_activatorCI.sql
 exec_file /srv/load_activatorCD.sql
 exec_file /srv/load_activatorEnvironment.sql
+exec_file /srv/load_activatorMetadata.sql
+exec_file /srv/load_activatorMetadataPlatform.sql
 exec_file /srv/load_solution.sql
 exec_file /srv/load_application.sql
 exec_file /srv/load_solutionenvironment.sql
@@ -99,6 +108,7 @@ exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
 exec_file /srv/load_userCloudRole.sql
+
 
 
 
