@@ -17,7 +17,8 @@ INSERT INTO `activatorMetadata` VALUES (6,6,'SQL Single region kubernetes','SQL 
 INSERT INTO `activatorMetadata` VALUES (7,7,'CMS Web App','CMS Web App','Web application',3,'','2020-04-07 13:39:47');
 INSERT INTO `activatorMetadata` VALUES (8,8,'CMS Web App','CMS Web App activator.','Web application',3,'','2020-04-07 13:38:22');
 INSERT INTO `activatorMetadata` VALUES (9,9,'CMS Web App','CMS Web App activator.','Web application',3,'','2020-05-07 10:55:49');
-INSERT INTO `activatorMetadata` VALUES (10,10,'Compute Engine Base Activator','Simple GCE Activator','Infrastructure',3,'https://github.com/tranquilitybase-io/tb-activator-gft-base.git','2020-06-18 13:56:30');
+INSERT INTO `activatorMetadata` VALUES (10,10,'Compute Engine Base','Simple GCE Activator','Infrastructure',3,'https://github.com/tranquilitybase-io/tb-activator-gft-base.git','2020-06-18 13:56:30');
+INSERT INTO `activatorMetadata` VALUES (11,11,'High Performance Compute','High Performance Grid Solution using Datasynapse','Infrastructure',3,'https://github.com/tranquilitybase-io/tb-gcp-hpc-activator.git','2020-09-03 14:03:15');
 /*!40000 ALTER TABLE `activatorMetadata` ENABLE KEYS */;
 
 UNLOCK TABLES;

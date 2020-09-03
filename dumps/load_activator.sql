@@ -15,7 +15,8 @@ INSERT INTO `activator` VALUES (1,1,'2020-05-12 08:29:07',0,'CMS Web App',1,'Pub
 (7,1,'2020-04-07 13:39:47',0,'CMS Web App',1,'Public',1000,1200,'[\"UK\", \"DB\"]','[\"Appengine\"]','[\"ApiGee\"]',3,3,'Sanjeev Gupta','s.gupta@company.name','Monthly: Eagle tier 3','Single Region Kubernetes','Available',NULL,'open',''),
 (8,1,'2020-04-07 13:38:22',0,'CMS Web App',1,'Public',1000,1200,'[\"UK\", \"DB\"]','[\"Appengine\"]','[\"ApiGee\"]',3,3,'Sanjeev Gupta','s.gupta@company.name','Monthly: Eagle tier 3','Single Region Kubernetes','Available',NULL,'open',''),
 (9,1,'2020-05-07 10:55:49',0,'CMS Web App',1,'Public',1000,1200,'[\"UK\", \"DB\"]','[\"Appengine\"]','[\"ApiGee\"]',3,3,'Sanjeev Gupta','s.gupta@company.name','Monthly: Eagle tier 3','Single Region Kubernetes','Locked',NULL,'open',''),
-(10,1,'2020-06-18 13:56:30',1,'Compute Engine Base Activator',1,'Public',100,1,'[\"UK\"]','[\"\"]','[\"\"]',3,2,'infra@yourcompany.com','Jenny Stringer','','Google Compute Engine','Available',NULL,'Jenkins','https://github.com/tranquilitybase-io/tb-activator-gft-base/blob/master/main.tf');
+(10,1,'2020-06-18 13:56:30',1,'Compute Engine Base',1,'Public',100,1,'[\"UK\"]','[\"\"]','[\"\"]',3,2,'infra@yourcompany.com','Jenny Stringer','','Google Compute Engine','Available',NULL,'Jenkins','https://github.com/tranquilitybase-io/tb-activator-gft-base/blob/master/main.tf'),
+(11,1,'2020-09-03 14:03:15',1,'High Performance Compute',1,'Restricted',1600,2500,'[\"UK\"]','[\"\"]','[\"\"]',3,2,'infra@yourcompany.com','Jenny Stringer','','Google Compute Engine','Available',NULL,'Jenkins','https://github.com/tranquilitybase-io/tb-gcp-hpc-activator/blob/master/main.tf');
 /*!40000 ALTER TABLE `activator` ENABLE KEYS */;
 
 UNLOCK TABLES;
