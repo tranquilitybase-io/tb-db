@@ -14,6 +14,7 @@ CREATE TABLE `activatorMetadata` (
   `category` varchar(255) DEFAULT NULL,
   `typeId` int(11),
   `activatorLink` varchar(255) DEFAULT NULL,
+  `latestVersion` varchar(30) DEFAULT NULL,
   `lastUpdated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `FK_activatorMetadata_activatorId` FOREIGN KEY (`activatorId`) REFERENCES `activator` (`id`),
