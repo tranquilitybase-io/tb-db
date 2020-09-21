@@ -12,6 +12,7 @@ CREATE TABLE `activatorMetadataVariables` (
   `name` varchar(255) DEFAULT NULL,
   `type` varchar(255) DEFAULT NULL,
   `value` varchar(255) DEFAULT NULL,
+  `defaultValue` varchar(255) DEFAULT NULL,
   `isOptional` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   CONSTRAINT `FK_actMetaVar_activatorId` FOREIGN KEY (`activatorMetadataId`) REFERENCES `activatorMetadata` (`id`)
