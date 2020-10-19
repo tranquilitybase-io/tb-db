@@ -11,6 +11,7 @@ CREATE TABLE `team` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `description` varchar(200) NOT NULL,
+  `cloudIdentityGroup` varchar(200),
   `businessUnitId` int(11) NOT NULL,
   `isActive` tinyint(1) NOT NULL DEFAULT '0',
   `accessRequestedById` int(11) DEFAULT NULL,
