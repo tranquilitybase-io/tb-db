@@ -27,7 +27,6 @@ exec_file /srv/lzenvironment.sql
 exec_file /srv/team.sql
 exec_file /srv/landingzonewan.sql
 exec_file /srv/folder.sql
-exec_file /srv/cloudRole.sql
 exec_file /srv/sourcecontrol.sql
 exec_file /srv/bgproutingmode.sql
 exec_file /srv/vpnonpremisevendor.sql
@@ -60,15 +59,9 @@ exec_file /srv/notificationTeam.sql
 exec_file /srv/notificationType.sql
 exec_file /srv/notificationApplicationDeployment.sql
 exec_file /srv/notificationSolutionDeployment.sql
-exec_file /srv/userCloudRole.sql
 exec_file /srv/activatorMetadata.sql
 exec_file /srv/activatorMetadataPlatform.sql
 exec_file /srv/activatorMetadataVariables.sql
-
-
-
-
-
 
 # Load data
 # tables with no FK constraints
@@ -87,7 +80,6 @@ exec_file /srv/load_lzlanvpc_environment.sql
 exec_file /srv/load_businessunit.sql
 exec_file /srv/load_lzenvironment.sql
 exec_file /srv/load_lzmetadata.sql
-exec_file /srv/load_cloudRole.sql
 exec_file /srv/load_sourcecontrol.sql
 exec_file /srv/load_vpconpremisevendor.sql
 exec_file /srv/load_platform.sql
@@ -107,9 +99,3 @@ exec_file /srv/load_solutionresource.sql
 exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
-exec_file /srv/load_userCloudRole.sql
-
-
-
-
-
