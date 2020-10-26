@@ -17,7 +17,8 @@ CREATE TABLE `team` (
   `accessRequestedById` int(11) DEFAULT NULL,
   `lastUpdated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `FK_team_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`)
+  CONSTRAINT `FK_team_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`),
+  CONSTRAINT `name_bu` UNIQUE(`name`,`businessUnitId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
