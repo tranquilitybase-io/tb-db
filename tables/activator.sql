@@ -29,6 +29,7 @@ CREATE TABLE `activator` (
   `accessRequestedById` int(11) DEFAULT NULL,
   `source` varchar(100) DEFAULT NULL,
   `gitRepoUrl` varchar(255) DEFAULT NULL,
+  `gitSnapshotJson` varchar(2048) DEFAULT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `FK_activator_accessRequestedById` FOREIGN KEY (`accessRequestedById`) REFERENCES `user` (`id`),
   CONSTRAINT `FK_activator_sourceControlId` FOREIGN KEY (`sourceControlId`) REFERENCES `sourcecontrol` (`id`)
