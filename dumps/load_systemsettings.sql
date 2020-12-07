@@ -1,0 +1,8 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+LOCK TABLES `systemsettings` WRITE;
+INSERT INTO `team` VALUES
+(1,1,'git user','token'),
+UNLOCK TABLES;
+
+SET FOREIGN_KEY_CHECKS=1;
