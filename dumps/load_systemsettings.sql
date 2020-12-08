@@ -2,7 +2,7 @@ SET FOREIGN_KEY_CHECKS=0;
 
 LOCK TABLES `systemsettings` WRITE;
 INSERT INTO `systemsettings` VALUES
-(1,2,'git user','token');
+(1,2,'git user', 'token','2020-04-20 16:20:00');
 UNLOCK TABLES;
 
 SET FOREIGN_KEY_CHECKS=1;

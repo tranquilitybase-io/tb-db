@@ -12,6 +12,7 @@ CREATE TABLE `systemsettings` (
   `userId` int(11) NOT NULL,
   `username` varchar(255),
   `token` varchar(255),
+  `lastUpdated` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `FK_user_id` FOREIGN KEY (`userId`) REFERENCES `user` (`id`)
 )
