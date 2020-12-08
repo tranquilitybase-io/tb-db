@@ -62,6 +62,7 @@ exec_file /srv/notificationSolutionDeployment.sql
 exec_file /srv/activatorMetadata.sql
 exec_file /srv/activatorMetadataPlatform.sql
 exec_file /srv/activatorMetadataVariables.sql
+exec_file /srv/systemsettings.sql
 
 # Load data
 # tables with no FK constraints
@@ -99,3 +100,4 @@ exec_file /srv/load_solutionresource.sql
 exec_file /srv/load_solutionresourcejson.sql
 exec_file /srv/load_teammember.sql
 exec_file /srv/load_notification.sql
+exec_file /srv/load_systemsettings.sql

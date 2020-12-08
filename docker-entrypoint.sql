@@ -41,6 +41,7 @@ SOURCE /srv/notificationSolutionDeployment.sql;
 SOURCE /srv/activatorMetadata.sql;
 SOURCE /srv/activatorMetadataPlatform.sql;
 SOURCE /srv/activatorMetadataVariables.sql;
+SOURCE /srv/systemsettings.sql
 
 SELECT 'Loading dumps' as 'INFO';
 SOURCE /srv/load_user.sql
@@ -75,3 +76,4 @@ SOURCE /srv/load_solutionresource.sql
 SOURCE /srv/load_solutionresourcejson.sql
 SOURCE /srv/load_teammember.sql
 SOURCE /srv/load_notificationType.sql
+SOURCE /srv/load_systemsettings.sql
