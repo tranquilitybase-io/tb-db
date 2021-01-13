@@ -15,8 +15,6 @@ CREATE TABLE `applicationSettings` (
   `defaultValue` varchar(255) DEFAULT NULL,
   `isOptional` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
-  UNIQUE(applicationId),
-  KEY `FK_application_Id` (`applicationId`),
   CONSTRAINT `FK_application_activatorId` FOREIGN KEY (`applicationId`) REFERENCES `application` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 
