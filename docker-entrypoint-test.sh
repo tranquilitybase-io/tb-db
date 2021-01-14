@@ -32,9 +32,11 @@ exec_file /srv/bgproutingmode.sql
 exec_file /srv/vpnonpremisevendor.sql
 exec_file /srv/lzfolderstructure.sql
 exec_file /srv/landingzoneaction.sql
+exec_file /srv/sharedservicesaction.sql
 exec_file /srv/subnetmode.sql
 exec_file /srv/businessunit.sql
 exec_file /srv/landingzoneprogressitem.sql
+exec_file /srv/sharedservicesprogressitem.sql
 exec_file /srv/lzlanvpc.sql
 exec_file /srv/type.sql
 exec_file /srv/platform.sql
@@ -73,10 +75,11 @@ exec_file /srv/load_lzfolderstructure.sql
 exec_file /srv/load_lzfolderstructurechild.sql
 exec_file /srv/load_subnetmode.sql
 exec_file /srv/load_landingzoneaction.sql
+exec_file /srv/load_sharedservicesaction.sql
 exec_file /srv/load_lzlanvpc.sql
 exec_file /srv/load_team.sql
 exec_file /srv/load_bpgroutingmode.sql
-exec_file /srv/load_landingzoneprogressitem.sql
+exec_file /srv/load_sharedservicesprogressitem.sql
 exec_file /srv/load_lzlanvpc_environment.sql
 exec_file /srv/load_businessunit.sql
 exec_file /srv/load_lzenvironment.sql
