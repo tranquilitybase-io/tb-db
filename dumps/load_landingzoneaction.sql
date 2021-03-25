@@ -1,14 +1,14 @@
 LOCK TABLES `landingzoneaction` WRITE;
-INSERT INTO `landingzoneaction` VALUES 
-(1,'Environment','','environment',0,0,'/administration/landing-zone/environment'),
-(2,'WAN','Network Setup','network-setup',0,1,'/administration/landing-zone/wan'),
-(3,'DNS','Network Setup','network-setup',0,1,''),
-(4,'Internet access','Network Setup','network-setup',0,1,''),
-(5,'SSO','AD Integration','ad-integration',0,1,''),
-(6,'ADFS','AD Integration','ad-integration',0,1,''),
-(7,'Stackdriver','Logging','logging',0,1,''),
-(8,'Data Dog','Logging','logging',0,1,''),
-(9,'Cloud Health','Billing/Cost Management','billing-cost-management',0,1,''),
-(10,'Security','','security',0,1,''),
-(11,'Multizone setup','','multizone-setup',0,1,'');
+INSERT INTO `landingzoneaction` VALUES
+(1,'Shared Projects','Shared Environment','shared-environment',100,0,'',NULL,0),
+(2,'Management Environment','Shared Environment','shared-environment',100,0,'',NULL,0),
+(3,'Shared VPC','Network','network-setup',100,0,'', NULL,0),
+(4,'VPC Firewall','Network','network-setup',100,0,'',NULL,0),
+(5,'Subnets','Network','network-setup',100,0,'',NULL,0),
+(6,'DNS','Network','network-setup',100,0,'',NULL,0),
+(7,'NAT Gateway','Network','network-setup',100,0,'',NULL,0),
+(8,'Network Peering','Connectivity','connectivity',100,0,'',NULL,0),
+(9,'Interconnect','Connectivity','connectivity',100,0,'',NULL,0),
+(10,'VPN','Connectivity','connectivity',0,1,'',NULL,0),
+(11,'Solutions Environment','User Environment','user-environment',0,0,'/administration/landing-zone/environment', NULL, 0);
 UNLOCK TABLES;

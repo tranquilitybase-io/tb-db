@@ -12,9 +12,11 @@ SOURCE /srv/bgproutingmode.sql;
 SOURCE /srv/vpnonpremisevendor.sql;
 SOURCE /srv/lzfolderstructure.sql;
 SOURCE /srv/landingzoneaction.sql;
+SOURCE /srv/sharedservicesaction.sql;
 SOURCE /srv/subnetmode.sql;
 SOURCE /srv/businessunit.sql;
 SOURCE /srv/landingzoneprogressitem.sql;
+SOURCE /srv/sharedservicesprogressitem.sql;
 SOURCE /srv/lzlanvpc.sql;
 SOURCE /srv/lzlanvpc_environment.sql;
 SOURCE /srv/teammember.sql;
@@ -54,10 +56,12 @@ SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
 SOURCE /srv/load_subnetmode.sql
 SOURCE /srv/load_landingzoneaction.sql
+SOURCE /srv/load_sharedservicesaction.sql
 SOURCE /srv/load_lzlanvpc.sql
 SOURCE /srv/load_team.sql
 SOURCE /srv/load_bpgroutingmode.sql
 SOURCE /srv/load_landingzoneprogressitem.sql
+SOURCE /srv/load_sharedservicesprogressitem.sql
 SOURCE /srv/load_lzlanvpc_environment.sql
 SOURCE /srv/load_businessunit.sql
 SOURCE /srv/load_lzenvironment.sql

@@ -1,11 +1,11 @@
 --
--- Table structure for table `landingzoneaction`
+-- Table structure for table `sharedservicesaction`
 --
 
-DROP TABLE IF EXISTS `landingzoneaction`;
+DROP TABLE IF EXISTS `sharedservicesaction`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `landingzoneaction` (
+CREATE TABLE `sharedservicesaction` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
   `categoryName` varchar(255) NOT NULL,
