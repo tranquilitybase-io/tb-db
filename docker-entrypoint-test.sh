@@ -52,7 +52,6 @@ exec_file /srv/lzfolderstructurechild.sql
 exec_file /srv/solution.sql
 exec_file /srv/application.sql
 exec_file /srv/applicationDeployment.sql
-exec_file /srv/applicationSettings.sql
 exec_file /srv/solutionenvironment.sql
 exec_file /srv/solutionresource.sql
 exec_file /srv/solution_resource_json.sql

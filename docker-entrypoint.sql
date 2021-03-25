@@ -31,7 +31,6 @@ SOURCE /srv/lzfolderstructurechild.sql;
 SOURCE /srv/solution.sql;
 SOURCE /srv/application.sql;
 SOURCE /srv/applicationDeployment.sql;
-SOURCE /srv/applicationSettings.sql;
 SOURCE /srv/solutionenvironment.sql;
 SOURCE /srv/solutionresource.sql;
 SOURCE /srv/solution_resource_json.sql;
