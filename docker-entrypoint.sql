@@ -5,15 +5,11 @@ SOURCE /srv/ci.sql;
 SOURCE /srv/cd.sql;
 SOURCE /srv/lzenvironment.sql;
 SOURCE /srv/team.sql;
-SOURCE /srv/landingzonewan.sql;
 SOURCE /srv/folder.sql;
 SOURCE /srv/sourcecontrol.sql;
-SOURCE /srv/bgproutingmode.sql;
-SOURCE /srv/vpnonpremisevendor.sql;
 SOURCE /srv/lzfolderstructure.sql;
 SOURCE /srv/landingzoneaction.sql;
 SOURCE /srv/sharedservicesaction.sql;
-SOURCE /srv/subnetmode.sql;
 SOURCE /srv/businessunit.sql;
 SOURCE /srv/landingzoneprogressitem.sql;
 SOURCE /srv/sharedservicesprogressitem.sql;
@@ -54,12 +50,10 @@ SOURCE /srv/load_platform.sql
 SOURCE /srv/load_type.sql
 SOURCE /srv/load_lzfolderstructure.sql
 SOURCE /srv/load_lzfolderstructurechild.sql
-SOURCE /srv/load_subnetmode.sql
 SOURCE /srv/load_landingzoneaction.sql
 SOURCE /srv/load_sharedservicesaction.sql
 SOURCE /srv/load_lzlanvpc.sql
 SOURCE /srv/load_team.sql
-SOURCE /srv/load_bpgroutingmode.sql
 SOURCE /srv/load_landingzoneprogressitem.sql
 SOURCE /srv/load_sharedservicesprogressitem.sql
 SOURCE /srv/load_lzlanvpc_environment.sql
@@ -67,7 +61,6 @@ SOURCE /srv/load_businessunit.sql
 SOURCE /srv/load_lzenvironment.sql
 SOURCE /srv/load_lzmetadata.sql
 SOURCE /srv/load_sourcecontrol.sql
-SOURCE /srv/load_vpconpremisevendor.sql
 SOURCE /srv/load_activator.sql
 SOURCE /srv/load_activatorCI.sql
 SOURCE /srv/load_activatorCD.sql
