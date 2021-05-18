@@ -23,6 +23,7 @@ SOURCE /srv/teammember.sql;
 SOURCE /srv/type.sql;
 SOURCE /srv/platform.sql;
 SOURCE /srv/activator.sql;
+SOURCE /srv/activatorCategory.sql;
 SOURCE /srv/activatorCI.sql;
 SOURCE /srv/activatorCD.sql;
 SOURCE /srv/activatorEnvironment.sql;
