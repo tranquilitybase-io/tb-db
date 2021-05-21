@@ -62,6 +62,7 @@ SOURCE /srv/load_lzenvironment.sql
 SOURCE /srv/load_lzmetadata.sql
 SOURCE /srv/load_sourcecontrol.sql
 SOURCE /srv/load_activator.sql
+SOURCE /srv/load_activatorCategory.sql
 SOURCE /srv/load_activatorCI.sql
 SOURCE /srv/load_activatorCD.sql
 SOURCE /srv/load_activatorEnvironment.sql

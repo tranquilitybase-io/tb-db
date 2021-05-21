@@ -84,6 +84,7 @@ exec_file /srv/load_type.sql
 
 # tables with FK Constraints
 exec_file /srv/load_activator.sql
+exec_file /srv/load_activatorCategory.sql
 exec_file /srv/load_activatorCI.sql
 exec_file /srv/load_activatorCD.sql
 exec_file /srv/load_activatorEnvironment.sql
